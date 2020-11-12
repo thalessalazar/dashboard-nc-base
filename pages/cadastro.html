@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="shortcut icon" href="../icon/file-code-regular.svg">
+    <link rel="stylesheet" href="../assets/libs/css/animate.css">
+    <link rel="stylesheet" href="../assets/libs/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Sistemas Padrão</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+         <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <a class="navbar-brand" href="index.html">
+                NCSISTEMAS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto navbar-right-top">
+                    <li class="nav-item">
+                        <div id="custom-search" class="top-search-bar">
+                            <input class="form-control" type="text" placeholder="Pesquisar..">
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown notification">
+                        <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                            <li>
+                                <div class="notification-title"> Notificações</div>
+                                <div class="notification-list">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action active">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-3.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
+                                                    <div class="notification-date">2 days ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-4.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-5.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-footer"> <a href="#">Ver Todas notificações</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown connection">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                        <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                            <li class="connection-list">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/github.png" alt="" > <span>Github</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/dribbble.png" alt="" > <span>Dribbble</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/dropbox.png" alt="" > <span>Dropbox</span></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/bitbucket.png" alt=""> <span>Bitbucket</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/mail_chimp.png" alt="" ><span>Mail chimp</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/slack.png" alt="" > <span>Slack</span></a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="conntection-footer"><a href="#">Ver Mais</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav-user">
+                        <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                        <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                            <div class="nav-user-info">
+                                <h5 class="mb-0 text-white nav-user-name">NCSISTEMAS</h5>
+                                <span class="status"></span><span class="ml-2">Cargo</span>
+                            </div>
+                            <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Opções</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Deslogar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end navbar -->
+    <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+      <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fas fa-fw fa-file"></i>Cadastro</a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastro.html">Cadastro (Lojas/Filiais)</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="ecommerce-product.html">Product List</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="ecommerce-product-single.html">Product Single</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="ecommerce-product-checkout.html">Product Checkout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fas fa-fw fa-file"></i>Condicional</a>
+                                <div id="submenu-2" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="condicional.html">Criar Condicional</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="manu.html">Manutenção</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="container-fluid  dashboard-content">
+                <!-- ============================================================== -->
+                <!-- pageheader -->
+                <!-- ============================================================== -->
+                <div class="row wow bounceInRight">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Criar Condicional </h2>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Cadastro</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Cadastro de Lojas/Filiais</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end pageheader -->
+                <!-- ============================================================== -->
+                <div class="row wow bounceInDown"> 
+                    <!-- ============================================================== -->
+                    <!-- validation form -->
+                    <!-- ============================================================== -->
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="card  ">
+                            <h5 class="card-header">Cadastro</h5>
+                            <div class="card-body ">
+                                <form>
+                                    <div class="row ">
+                                        <div class="col-xl-3 form-group ">
+                                            <label for="codigoselectcadastro">Código</label>
+                                            <select class="form-control" id="codigoselectcadastro">
+                                              <option>Score1</option>
+                                              <option>Score2</option>
+                                              <option>Score3</option>
+                                              <option>Score4</option>
+                                              <option>Score5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-4 ">
+                                            <label for="nomeerazaoinputcadastro">Nome/Razão</label>
+                                            <input type="text" class="form-control" id="nomeerazaoinputcadastro" placeholder="--">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-3 ">
+                                            <label for="nomereduzidoinputcadastro">Nome Reduzido</label>
+                                            <input type="text" class="form-control" id="nomereduzidoinputcadastro" placeholder="--">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="enderecoinputcadastro">Endereço</label>
+                                            <input type="text" class="form-control" id="enderecoinputcadastro" placeholder="--">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="numeroinputcadastro">Nº</label>
+                                            <input type="text" class="form-control" id="numeroinputcadastro" placeholder="--">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="bairroinputcadastro">Bairro</label>
+                                            <input type="text" class="form-control" id="bairroinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="complementoinputcadastro">Complemento</label>
+                                            <input type="text" class="form-control" id="complementoinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cepinputcadastro">CEP</label>
+                                            <input type="text" class="form-control" id="cepinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cidadeinputcadastro">Cidade</label>
+                                            <input type="text" class="form-control" id="cidadeinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="ufinputcadastro">UF</label>
+                                            <input type="text" class="form-control" id="ufinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="bairroinputcadastro">Código IBGE</label>
+                                            <input type="text" class="form-control" id="bairroinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cnpjinputcadastro">CNPJ</label>
+                                            <input type="text" class="form-control" id="cnpjinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="ieinputcadastro">IE</label>
+                                            <input type="text" class="form-control" id="ieinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <a class="btn btn-outline-primary  mt-4" href="">Calc Desc.Recebimento</a>
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="prestacaoinputcadastro">Prestação Minima</label>
+                                            <input type="text" class="form-control" id="prestacaoinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="foneinputcadastro">Fone</label>
+                                            <input type="text" class="form-control" id="foneinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="faxcelularinputcadastro">FAX/Celular</label>
+                                            <input type="text" class="form-control" id="faxcelularinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="e-mailinputcadastro">E-mail</label>
+                                            <input type="text" class="form-control" id="e-mailinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="senhamasternputcadastro">Senha Master</label>
+                                            <input type="text" class="form-control" id="senhamasterinputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="msginputcadastro">Mensagem</label>
+                                            <input type="text" class="form-control" id="msginputcadastro" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="msg1inputcadastro">Mensagem</label>
+                                            <input type="text" class="form-control" id="msg1inputcadastro" placeholder="">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h5 class="card-header">Parametros: NF-e/NFC-e</h5>
+                            <div class="card-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xl-3">
+                                            <label for="fimpselectcadastro">F.Imp Danfe: </label>
+                                            <select class="form-control" id="fimpselectcadastro">
+                                                <option>1- NCSISTEMAS</option>
+                                                <option>2- NCSISTEMAS</option>
+                                                <option>3- NCSISTEMAS</option>
+                                                <option>4- NCSISTEMAS</option>
+                                                <option>5- NCSISTEMAS</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="formemissaoselectcadastro">Form Emissão NFe </label>
+                                            <select class="form-control" id="formemissaoselectcadastro">
+                                                <option>1- NCSISTEMAS</option>
+                                                <option>2- NCSISTEMAS</option>
+                                                <option>3- NCSISTEMAS</option>
+                                                <option>4- NCSISTEMAS</option>
+                                                <option>5- NCSISTEMAS</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="indentselectcadastro">Ident. Ambiente </label>
+                                            <select class="form-control" id="indentselectcadastro">
+                                                <option>1- NCSISTEMAS</option>
+                                                <option>2- NCSISTEMAS</option>
+                                                <option>3- NCSISTEMAS</option>
+                                                <option>4- NCSISTEMAS</option>
+                                                <option>5- NCSISTEMAS</option>
+                                              </select>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for="procemissoanfeinput">V. Proc. Emissão NFe</label>
+                                            <input type="text" class="form-control" id="procemissoanfeinput" placeholder="--" >
+                                        </div><div class="col-xl-3">
+                                            <label for="emissaonfeselectcadastro">Emissão NFe</label>
+                                            <select class="form-control" id="emissaonfeselectcadastro">
+                                                <option>1- NCSISTEMAS</option>
+                                                <option>2- NCSISTEMAS</option>
+                                                <option>3- NCSISTEMAS</option>
+                                                <option>4- NCSISTEMAS</option>
+                                                <option>5- NCSISTEMAS</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="siglainputcadastro">Sigla WS</label>
+                                            <input type="text" class="form-control" id="siglainputcadastro" placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="dllinputcadastro">Licença DLL</label>
+                                            <input type="disabled" class="form-control" id="dllinputcadastro" placeholder="01" >
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="certdigitalinputcadastro">Cert. Digital</label>
+                                            <input type="text" class="form-control" id="certdigitalinputcadastro" placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="tokeninputcadastro">Token</label>
+                                            <input type="text" class="form-control" id="tokeninputcadastro"  placeholder="--" >
+                                        </div>
+                                        <a href="#" class="btn btn-outline-primary mt-4 float-right" style="float: left;">Consulta Status Serviço (NF-e)</a>
+                                        <a href="#" class="btn btn-outline-primary mt-4 float-right ml-5" style="float: left;">Versão da DLL</a>
+                                        <div class="col-xl-4">
+                                            <label for="pathxmlinputcadastro">Path XML: </label>
+                                            <input type="text" class="form-control" id="pathxmlinputcadastro"  placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="idassocinputcadastro">ID Assoc. SPC </label>
+                                            <input type="text" class="form-control" id="idassocinputcadastro"  placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="loginspcinputcadastro">Login SPC</label>
+                                            <input type="text" class="form-control" id="loginspcinputcadastro"  placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="senhaspcinputcadastro">Senha SPC</label>
+                                            <input type="text" class="form-control" id="senhaspcinputcadastro"  placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="regtribselectcadastro">Reg. Trib.</label>
+                                            <select class="form-control" id="regtribselectcadastro">
+                                                <option>1- NCSISTEMAS</option>
+                                                <option>2- NCSISTEMAS</option>
+                                                <option>3- NCSISTEMAS</option>
+                                                <option>4- NCSISTEMAS</option>
+                                                <option>5- NCSISTEMAS</option>
+                                              </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="card">
+                            <h5 class="card-header">Leitor</h5>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-xl-3">
+                                            <label for=".">.</label>
+                                            <input type="text" class="form-control" id="."  placeholder="--" >
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>     
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            CopyRight. <a href="#">NCSISTEMAS</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">Telefone</a>
+                                <a href="javascript: void(0);">Site</a>
+                                <a href="javascript: void(0);">E-mail</a>
+                                <a href="javascript: void(0);">TeamViewer</a>
+                                <a href="javascript: void(0);">AnyDesk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="../assets/libs/js/main-js.js"></script>
+    <script src="../assets/libs/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+ 
+</html>
