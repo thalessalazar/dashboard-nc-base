@@ -201,12 +201,12 @@
                 <div class="row wow bounceInRight">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Criar Condicional </h2>
+                            <h2 class="pageheader-title">Fornecimento </h2>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Condicional</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Criar Condicional</li>
+                                        <li class="breadcrumb-item"><a href="cadastro.html" class="breadcrumb-link">Cadastro</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Fornecedores</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -222,13 +222,13 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                         <div class="card  ">
-                            <h5 class="card-header">Atendimento Pré-Venda</h5>
+                            <h5 class="card-header">Cadastro(Fornecedores)</h5>
                             <div class="card-body ">
                                 <form>
                                     <div class="row ">
                                         <div class="col-xl-3 form-group ">
-                                            <label for="scoreselect" class="">Score</label>
-                                            <select class="form-control" id="scoreselect">
+                                            <label for="lojaselect" class="">Loja:</label>
+                                            <select class="form-control" id="lojaselect">
                                               <option>Score1</option>
                                               <option>Score2</option>
                                               <option>Score3</option>
@@ -236,19 +236,21 @@
                                               <option>Score5</option>
                                             </select>
                                         </div>
-                                        <div class="col-xl-3 ">
-                                            <label for="cupominput">Nº Do Cupom</label>
-                                            <input type="text" class="form-control" id="cupominput" placeholder="Insira Nº Do Cupom">
+                                    </div>
+                                    <div class="row ">
+                                        <div class="col-xl-3 form-group ">
+                                            <label for="lojaselectfornecedores" class="">Código:</label>
+                                            <select class="form-control" id="lojaselectfornecedores">
+                                              <option>Score1</option>
+                                              <option>Score2</option>
+                                              <option>Score3</option>
+                                              <option>Score4</option>
+                                              <option>Score5</option>
+                                            </select>
                                         </div>
-                                        <div class="col-xl-3 ">
-                                            <div class="form-group">
-                                                <label>Data</label>
-                                                <input type="text" class="form-control date-inputmask" id="date-mask" placeholder="dd/mm/aaaa" value="dd/mm/aaaa">
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="vendedorselect">Nº Do Vendedor</label>
-                                            <select class="form-control" id="vendedorselect">
+                                        <div class="col-xl-9">
+                                            <label for="nomeerazaoselectfornecedores">Nome/Razão</label>
+                                            <select class="form-control" id="nomeerazaoselectfornecedores">
                                               <option>000-1</option>
                                               <option>000-2</option>
                                               <option>000-3</option>
@@ -256,203 +258,107 @@
                                               <option>000-5</option>
                                             </select>
                                         </div>
+                                        <div class="col-xl-10">
+                                            <label for="nomefanstasiainputfornecedores">Nome Fantasia</label>
+                                            <input type="text" class="form-control" id="nomefanstasiainputfornecedores" placeholder="NCSISTEMAS" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="enderecoinputfornecedores">Endereço</label>
+                                            <input type="text" class="form-control" id="enderecoinputfornecedores" placeholder="endereço" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="bairroinputfornecedores">Bairro</label>
+                                            <input type="text" class="form-control" id="bairroinputfornecedores" placeholder="Bairro Fantasia" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="cepinputfornecedores">CEP</label>
+                                            <input type="text" class="form-control" id="cepinputfornecedores" placeholder="CEP" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="cidadeinputfornecedores">Cidade</label>
+                                            <input type="text" class="form-control" id="cidadeinputfornecedores" placeholder="Cidade" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="UFinputfornecedores">UF</label>
+                                            <input type="text" class="form-control" id="ufinputfornecedores" placeholder="--" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="codibgeselectfornecedores">Cod. IBGE</label>
+                                            <select class="form-control" id="codibgeselectfornecedores">
+                                              <option>000-1</option>
+                                              <option>000-2</option>
+                                              <option>000-3</option>
+                                              <option>000-4</option>
+                                              <option>000-5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="codpaíseselectfornecedores">Cod. País</label>
+                                            <select class="form-control" id="codpaíseselectfornecedores">
+                                              <option>000-1</option>
+                                              <option>000-2</option>
+                                              <option>000-3</option>
+                                              <option>000-4</option>
+                                              <option>000-5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="cnpjinputfornecedores">CNPJ</label>
+                                            <input type="text" class="form-control" id="cnpjinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="ieinputfornecedores">I.E.</label>
+                                            <input type="text" class="form-control" id="ieinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="foneinputfornecedores">Fone</label>
+                                            <input type="text" class="form-control" id="foneinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="faxinputfornecedores">FAX</label>
+                                            <input type="text" class="form-control" id="faxinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="emailinputfornecedores">E-mail</label>
+                                            <input type="text" class="form-control" id="emailinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="cxpostalinputfornecedores">Cx. Postal</label>
+                                            <input type="text" class="form-control" id="cxpostalinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="contatorepinputfornecedores">Contato/Rep</label>
+                                            <input type="text" class="form-control" id="contatorepinputfornecedores" placeholder="____-____-____/____-___" >
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="condicaoselectfornecedores">Condição</label>
+                                            <select class="form-control" id="condicaoselectfornecedores">
+                                              <option>000-1</option>
+                                              <option>000-2</option>
+                                              <option>000-3</option>
+                                              <option>000-4</option>
+                                              <option>000-5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3">
+                                            <label for="marcaprincipalselectfornecedores">Marca Principal</label>
+                                            <select class="form-control" id="marcaprincipalselectfornecedores">
+                                              <option>000-1</option>
+                                              <option>000-2</option>
+                                              <option>000-3</option>
+                                              <option>000-4</option>
+                                              <option>000-5</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-xl-6">
+                                            <label for="obsinputfornecedores">Observação</label>
+                                            <textarea class="form-control" id="obsinputfornecedores" rows="3"></textarea>
+                                        </div>
                                     </div>
+                                    <a href="#" class="btn btn-rounded btn-primary mt-4 float-right ml-5" style="float: left;">Salvar</a>
                                 </form>
                             </div>
                         </div>
-                        <div class="card">
-                            <h5 class="card-header">Dados Cliente</h5>
-                            <div class="card-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-xl-2">
-                                            <label for="clienteselect">Cliente/Loja</label>
-                                            <select class="form-control" id="clienteelect">
-                                                <option>Fulano</option>
-                                                <option>Lojinha</option>
-                                                <option>Ciclano</option>
-                                                <option>Lojinha 2</option>
-                                                <option>Beltrano</option>
-                                              </select>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-xl-3">
-                                            <label for="cpfecnpjinput">CPF/CNPJ</label>
-                                            <input type="text" class="form-control" id="cpfecnpjinput" placeholder="000.000.000-00" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="cartaoinput">Cartão</label>
-                                            <input type="text" class="form-control" id="cartaoinput" placeholder="000.000.0000.000" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="conceitoinput">Conceito</label>
-                                            <input type="disabled" class="form-control" id="conceitoinput" disabled placeholder="01" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="limiteinput">Limite Disponível</label>
-                                            <input type="text" class="form-control" id="limiteinput" disabled placeholder="R$000,00" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="saldoinput">Saldo Disponível</label>
-                                            <input type="text" class="form-control" id="saldoinput" disabled placeholder="R$000,00" >
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-                        <div class="card">
-                            <h5 class="card-header">Leitor</h5>
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="col-xl-4">
-                                            <label for="cdbinput">Código de barras</label>
-                                            <input type="text" class="form-control" id="cdbinput" placeholder="Produto #1" >
-                                        </div>
-                                        <div class="col-xl-4">
-                                            <label for="nomeprodutoinput">Nome Do Produto</label>
-                                            <input type="text" class="form-control" id="nomeprodutoinput" disabled placeholder="Produto #1" >
-                                        </div>
-                                        <div class="col-xl-4">
-                                            <label for="valorprodutoinput">Valor</label>
-                                            <input type="text" class="form-control" id="valorprodutoinput" disabled placeholder="R$00,00" >
-                                        </div>
-                                        <div class="col-xl-4">
-                                            <label for="Qntdinput">Quantidade</label>
-                                            <input type="disabled" class="form-control" id="Qntdinput" disabled placeholder="01" >
-                                        </div>
-                                        <a href="#" class="btn btn-outline-primary mt-4 float-right" style="margin-left: 448px;">Ler Código de barras</a>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-
-                        <!-- ============================================================== -->
-
-                                      <!-- recent orders  -->
-                        <!-- ============================================================== -->
-                        <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Tabela Produtos</h5>
-                                <div class="card-body p-0">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead class="bg-light">
-                                                <tr class="border-0">
-                                                    <th class="border-0">Nº</th>
-                                                    <th class="border-0">Produto</th>
-                                                    <th class="border-0">Descrição</th>
-                                                    <th class="border-0">Referencia</th>
-                                                    <th class="border-0">Natureza</th>
-                                                    <th class="border-0">% Desconto</th>
-                                                    <th class="border-0">$ Desconto</th>
-                                                    <th class="border-0">Unitário</th>
-                                                    <th class="border-0">SubTotal</th>
-                                                    <th class="border-0">NºVendedor</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Produto #1</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>S</td>
-                                                    <td>Desconto %</td>
-                                                    <td>Desconto $</td>
-                                                    <td>Unitário</td>
-                                                    <td>SubTotal</td>
-                                                    <td>NºVendedor</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Produto #1</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>S</td>
-                                                    <td>Desconto %</td>
-                                                    <td>Desconto $</td>
-                                                    <td>Unitário</td>
-                                                    <td>SubTotal</td>
-                                                    <td>NºVendedor</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Produto #1</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>S</td>
-                                                    <td>Desconto %</td>
-                                                    <td>Desconto $</td>
-                                                    <td>Unitário</td>
-                                                    <td>SubTotal</td>
-                                                    <td>NºVendedor</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>Produto #1</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>S</td>
-                                                    <td>Desconto %</td>
-                                                    <td>Desconto $</td>
-                                                    <td>Unitário</td>
-                                                    <td>SubTotal</td>
-                                                    <td>NºVendedor</td>
-                                                </tr>   
-                                                
-                                            </tbody>
-                                            
-                                        </table>
-                                        <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
-                                        <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-pencil-alt"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ============================================================== -->
-                        <!-- end recent orders  -->
-                    <!-- ============================================================== -->
-                    <!-- end validation form -->
-                    <!-- ============================================================== -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Totalização da venda</h5>
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="col-xl-3">
-                                            <label for="cdbinput">SubTotal</label>
-                                            <input type="text" class="form-control" id="cdbinput" disabled  >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="nomeprodutoinput">Descontos</label>
-                                            <input type="text" class="form-control" id="nomeprodutoinput" disabled >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="valorprodutoinput">Financeiro</label>
-                                            <input type="text" class="form-control" id="valorprodutoinput" disabled>
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="Qntdinput">Valor Total</label>
-                                            <input type="disabled" class="form-control" id="Qntdinput" disabled>
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="Qntdinput">Observação</label>
-                                            <input type="disabled" class="form-control" id="Qntdinput" placeholder="Obs:" >
-                                        </div>
-                                    </div>
-                                </form>
-                                <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-check-circle"></i> Salvar</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>     
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
