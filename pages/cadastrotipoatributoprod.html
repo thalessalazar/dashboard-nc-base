@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="../icon/file-code-regular.svg">
     <link rel="stylesheet" href="../assets/libs/css/animate.css">
     <link rel="stylesheet" href="../assets/libs/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Sistemas Padrão</title>
 </head>
 
@@ -224,12 +225,12 @@
                 <div class="row wow bounceInRight">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Manutenção </h2>
+                            <h2 class="pageheader-title">Cadastro de Tipo de Atributo de Produtos</h2>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Condicional</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Manutenção</li>
+                                        <li class="breadcrumb-item"><a href="cadastro.html" class="breadcrumb-link">Cadastro</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Cadastro de Tipo de Atributo de Produtos</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -239,19 +240,19 @@
                 <!-- ============================================================== -->
                 <!-- end pageheader -->
                 <!-- ============================================================== -->
-                <div class="row wow bounceInDown">
+                <div class="row wow bounceInDown"> 
                     <!-- ============================================================== -->
                     <!-- validation form -->
                     <!-- ============================================================== -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header ">Manutenção</h5>
-                            <div class="card-body">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="card " >
+                            <h5 class="card-header">Cadastro(Cadastro de Tipo de Atributo de Produtos)</h5>
+                            <div class="card-body" >
                                 <form>
-                                    <div class="row">
-                                        <div class="col-xl-6 form-group">
-                                            <label for="scoreselectmanu">Score</label>
-                                            <select class="form-control" id="scoreselect">
+                                    <div class="row ">
+                                        <div class="col-xl-6 form-group ">
+                                            <label for="codigoselectlcadtipo" class="">Código</label>
+                                            <select class="form-control" id="codigoselectcadtipo">
                                               <option>Score1</option>
                                               <option>Score2</option>
                                               <option>Score3</option>
@@ -259,136 +260,61 @@
                                               <option>Score5</option>
                                             </select>
                                         </div>
-                                        <div class="col-xl-6 ">
-                                            <div class="form-group">
-                                                <label>Data</label>
-                                                <input type="text" class="form-control date-inputmask" id="date-mask" placeholder="dd/mm/aaaa" value="dd/mm/aaaa">
-                                            </div>
+                                    </div>
+                                    <div class="row" >
+                                        <div class="col-xl-6 form-group ">
+                                            <label for="descricaooeselectcadtipo" class="">Descrição</label>
+                                            <select class="form-control" id="descricaoselectcadtipo">
+                                              <option>Score1</option>
+                                              <option>Score2</option>
+                                              <option>Score3</option>
+                                              <option>Score4</option>
+                                              <option>Score5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <label for="nivelinputcadtipo">Nível</label>
+                                            <input type="text" class="form-control" id="nivelinputcadtipo" placeholder="0" disabled >
                                         </div>
                                     </div>
+                                    <a href="#" class="btn btn-rounded btn-primary mt-4 float-right ml-5" style="float: left;">Salvar</a>
+                                    <a href="#" class="btn btn-rounded btn-outline-primary disabled ">Cadastrar/Atualizar Tipo Atributo E-commerce</a>
                                 </form>
                             </div>
-                        </div>
-                        <div class="card">
-                            <h5 class="card-header">Dados Cliente</h5>
-                            <div class="card-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-xl-2">
-                                            <label for="clienteinputmanu">Cliente/Loja</label>
-                                            <input type="text" class="form-control" id="clienteinputmanu" disabled placeholder="000.000.000-00" >
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-xl-3">
-                                            <label for="codigoinputmanu">Código</label>
-                                            <input type="text" class="form-control" id="codigoinputmanu" disabled placeholder="000.000.000-00" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="nomeinputmanu">Nome</label>
-                                            <input type="text" class="form-control" id="nomeinputmanu" disabled placeholder="nome completo" >
-                                        </div>
-                                        <div class="col-xl-3">
-                                            <label for="cpfinputmanu">CPF</label>
-                                            <input type="disabled" class="form-control" id="cpfinputmanu" disabled placeholder="01" >
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
                     </div>
-
-                        <!-- ============================================================== -->
-
-                                      <!-- recent orders  -->
-                        <!-- ============================================================== -->
-                        <div class="col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Tabela Produtos</h5>
-                                <div class="card-body p-0">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead class="bg-light">
-                                                <tr class="border-0">
-                                                    <th class="border-0">Nº</th>
-                                                    <th class="border-0">Codigo</th>
-                                                    <th class="border-0">Descrição</th>
-                                                    <th class="border-0">Referencia</th>
-                                                    <th class="border-0">Quantidade</th>
-                                                    <th class="border-0">Natureza</th>
-                                                    <th class="border-0">SubTotal</th>
-                                                    <th class="border-0">NºVendedor</th>
-                                                    <th class="border-0">Data</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>000-1</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>1x</td>
-                                                    <td>S</td>
-                                                    <td>00.00</td>
-                                                    <td>-1</td>
-                                                    <td>00/00/0000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>000-2</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>1x</td>
-                                                    <td>S</td>
-                                                    <td>00.00</td>
-                                                    <td>-1</td>
-                                                    <td>00/00/0000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>000-3</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>1x</td>
-                                                    <td>S</td>
-                                                    <td>00.00</td>
-                                                    <td>-1</td>
-                                                    <td>00/00/0000</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>000-3</td>
-                                                    <td>Descrição do produto</td>
-                                                    <td>000</td>
-                                                    <td>1x</td>
-                                                    <td>S</td>
-                                                    <td>00.00</td>
-                                                    <td>-1</td>
-                                                    <td>00/00/0000</td>
-                                                </tr>   
-                                                
-                                            </tbody>
+                    
+                        <div class="card col-xl-6 border-left-1 p-2">
+                            <h5 class="card-header">Tabela Perfis</h5>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class="bg-light">
+                                            <tr class="border-0">
+                                                <th class="border-0">Código</th>
+                                                <th class="border-0 border-left">Descrição</th>
+                                                <th class="border-0 border-left">Editar/Deletar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0000-1</td>
+                                                <td class="border-left">Uma descrição aqui</td>
+                                                <td class="border-left"><a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
+                                                    <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-pencil-alt"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td >0000-1</td>
+                                                <td class="border-left">Uma descrição aqui</td>
+                                                <td class="border-left"><a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
+                                                    <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-pencil-alt"></i></a></td>
+                                            </tr>
                                             
-                                        </table>
-                                        <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
-                                        <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-sync-alt"></i></a>
-                                        <div>
-                                            <div class="col-xl-3">
-                                                <label for="cdbinput">Produto Devolvido (Excluir): </label>
-                                                <input type="text" class="form-" id="cdbinput" ><a href="#" class="btn btn-outline-primary btn-primary" style="padding: 2px 15px;"><i class="fas fa-check-circle"></i></a>  
-                                            </div>
-                                        </div>    
-                                    </div>
+                                        </tbody>
+                                        
+                                    </table>
                                 </div>
                             </div>
                         </div>
-                        <!-- ============================================================== -->
-                        <!-- end recent orders  -->
-                    <!-- ============================================================== -->
-                    <!-- end validation form -->
-                    <!-- ============================================================== -->
-                </div>     
             <!-- ============================================================== -->
             <!-- footer -->
             <!-- ============================================================== -->
@@ -413,7 +339,8 @@
             <!-- ============================================================== -->
             <!-- end footer -->
             <!-- ============================================================== -->
-        </div>
+
+            </div>
     </div>
     <!-- ============================================================== -->
     <!-- end main wrapper -->

@@ -936,6 +936,10 @@ Borders
     border: 1px solid #e6e6f2 !important;
 }
 
+.border-left-1 {
+    border-left: 1px solid #71748d !important;
+}
+
 .border-top {
     border-top: 1px solid #e6e6f2 !important;
 }
