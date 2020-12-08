@@ -214,6 +214,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="cadastrocustocontas.html">Cadastro C. Custo Contas  </a>
                                         </li>
+                                        
                                     </ul>
                                 </div>
                             </li>
@@ -246,12 +247,12 @@
                 <div class="row wow bounceInRight">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                            <h2 class="pageheader-title">Lugares q/ Frequenta</h2>
+                            <h2 class="pageheader-title">C. Custo: (Cadastro de Sub-Grupo)</h2>
                             <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="cadastro.html" class="breadcrumb-link">Cadastro</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Lugares q/ Frequenta</li>
+                                        <li class="breadcrumb-item active" aria-current="page">C. Custo Cadastro de Sub-Grupos</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -267,13 +268,13 @@
                     <!-- ============================================================== -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                         <div class="card " >
-                            <h5 class="card-header">Cadastro(Lugares q/ Frequenta)</h5>
+                            <h5 class="card-header">C. Custo: (Cadastro de Sub-Grupo)</h5>
                             <div class="card-body" >
                                 <form>
                                     <div class="row ">
                                         <div class="col-xl-6 form-group ">
-                                            <label for="codigoselectlug" class="">Código</label>
-                                            <select class="form-control" id="codigoselectlug">
+                                            <label for="subgruposelectcadastrosubcusto" class="">SubGrupo</label>
+                                            <select class="form-control" id="subgruposelectcadastrosubcusto">
                                               <option>Score1</option>
                                               <option>Score2</option>
                                               <option>Score3</option>
@@ -281,11 +282,9 @@
                                               <option>Score5</option>
                                             </select>
                                         </div>
-                                    </div>
-                                    <div class="row" >
                                         <div class="col-xl-6 form-group ">
-                                            <label for="descricaooeselectlug" class="">Descrição</label>
-                                            <select class="form-control" id="descricaoselectlug">
+                                            <label for="gruposelectcadastrosubcusto" class="">Grupo</label>
+                                            <select class="form-control" id="gruposelectcadastrosubcusto">
                                               <option>Score1</option>
                                               <option>Score2</option>
                                               <option>Score3</option>
@@ -293,37 +292,41 @@
                                               <option>Score5</option>
                                             </select>
                                         </div>
+                                        <div class="col-xl-4">
+                                            <label for="descriçãoinputcadastrosubcusto">Descrição</label>
+                                            <input type="text" class="form-control" id="descriçãoinputcadastrosubcusto" placeholder="0" >
+                                        </div>
                                     </div>
-                                    <label class="custom-control custom-checkbox float-left" style="margin-top: 30px ;">
-                                        <input type="checkbox" checked="" class="custom-control-input"><span class="custom-control-label">Ativo</span>
-                                    </label>
                                     <a href="#" class="btn btn-rounded btn-primary mt-4 float-right ml-5" style="float: left;">Salvar</a>
                                 </form>
                             </div>
                     </div>
                     
-                        <div class="card col-xl-6 border-left-1 p-2">
-                            <h5 class="card-header">Tabela Perfis</h5>
+                        <div class="card col-xl-12 border-left-1 p-2">
+                            <h5 class="card-header">Tabela</h5>
                             <div class="card-body p-0">
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead class="bg-light">
                                             <tr class="border-0">
-                                                <th class="border-0">Código</th>
+                                                <th class="border-0">Sub-Grupo</th>
+                                                <th class="border-0 border-left">Grupo</th>
                                                 <th class="border-0 border-left">Descrição</th>
                                                 <th class="border-0 border-left">Editar/Deletar</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>0000-1</td>
-                                                <td class="border-left">Uma descrição aqui</td>
+                                                <td>1</td>
+                                                <td class="border-left">1</td>
+                                                <td class="border-left">1</td>
                                                 <td class="border-left"><a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
                                                     <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-pencil-alt"></i></a></td>
                                             </tr>
                                             <tr>
-                                                <td >0000-1</td>
-                                                <td class="border-left">Uma descrição aqui</td>
+                                                <td>1</td>
+                                                <td class="border-left">1</td>
+                                                <td class="border-left">1</td>
                                                 <td class="border-left"><a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-trash-alt"></i></a>
                                                     <a href="#" class="btn btn-outline-primary float-right"><i class="fas fa-pencil-alt"></i></a></td>
                                             </tr>

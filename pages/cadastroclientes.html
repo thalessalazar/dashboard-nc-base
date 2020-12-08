@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/libs/css/style.css">
+    <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="shortcut icon" href="../icon/file-code-regular.svg">
+    <link rel="stylesheet" href="../assets/libs/css/animate.css">
+    <link rel="stylesheet" href="../assets/libs/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Sistemas Padrão</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+         <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <a class="navbar-brand" href="index.html">
+                NCSISTEMAS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto navbar-right-top">
+                    <li class="nav-item">
+                        <div id="custom-search" class="top-search-bar">
+                            <input class="form-control" type="text" placeholder="Pesquisar..">
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown notification">
+                        <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                        <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                            <li>
+                                <div class="notification-title"> Notificações</div>
+                                <div class="notification-list">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action active">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-2.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Jeremy Rakestraw</span>accepted your invitation to join the team.
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-3.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">John Abraham </span>is now following you
+                                                    <div class="notification-date">2 days ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-4.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Monaan Pechi</span> is watching your main repository
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="list-group-item list-group-item-action">
+                                            <div class="notification-info">
+                                                <div class="notification-list-user-img"><img src="../assets/images/avatar-5.jpg" alt="" class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span class="notification-list-user-name">Jessica Caruso</span>accepted your invitation to join the team.
+                                                    <div class="notification-date">2 min ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-footer"> <a href="#">Ver Todas notificações</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown connection">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                        <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                            <li class="connection-list">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/github.png" alt="" > <span>Github</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/dribbble.png" alt="" > <span>Dribbble</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/dropbox.png" alt="" > <span>Dropbox</span></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/bitbucket.png" alt=""> <span>Bitbucket</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/mail_chimp.png" alt="" ><span>Mail chimp</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="../assets/images/slack.png" alt="" > <span>Slack</span></a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="conntection-footer"><a href="#">Ver Mais</a></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown nav-user">
+                        <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar-1.jpg" alt="" class="user-avatar-md rounded-circle"></a>
+                        <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                            <div class="nav-user-info">
+                                <h5 class="mb-0 text-white nav-user-name">NCSISTEMAS</h5>
+                                <span class="status"></span><span class="ml-2">Cargo</span>
+                            </div>
+                            <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Conta</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Opções</a>
+                            <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Deslogar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end navbar -->
+    <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+      <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                                Menu
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fas fa-fw fa-file"></i>Cadastro</a>
+                                <div id="submenu-1" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastro.html">Cadastro (Lojas/Filiais)</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="fornecedores.html">Fornecedores</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="planospagamentos.html">Planos de Pagamentos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="maquinascartao.html">Máquinas de Cartão</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="taxasdecobranca.html">Taxas De Cobrança/SPC</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="perfisdeclientes.html">Perfis De clientes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="veiculoseplacas.html">Veiculos/Placas</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="redesocialdeclientes.html">Rede Social de Clientes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="lugaresqfrequenta.html">Lugares q/ Frequenta</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrodedepartamentos.html">Cadastro de Departamentos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrodesubdepartamentos.html">Cadastro de Sub-Departamentos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrotipoatributoprod.html">Cadastro de Tipo de Atributo de Produtos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="Parametrosgerais.html">Parametros Gerais do sistema </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="naturezaoperações.html">Natureza Das Operações </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastroclientes.html">Cadastro De Clientes </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrovendedores.html">Cadastro Vendedores  </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrocustogrupos.html">Cadastro C. Custo-Grupos  </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrocustogrupossub.html">Cadastro C. Custo-Sub-Grupos  </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cadastrocustocontas.html">Cadastro C. Custo Contas  </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-2" aria-controls="submenu-2"><i class="fas fa-fw fa-file"></i>Condicional</a>
+                                <div id="submenu-2" class="collapse submenu" style="">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="condicional.html">Criar Condicional</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="manu.html">Manutenção</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="container-fluid  dashboard-content">
+                <!-- ============================================================== -->
+                <!-- pageheader -->
+                <!-- ============================================================== -->
+                <div class="row wow bounceInRight">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Cadastro de Clientes </h2>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Cadastro</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Cadastro de Clientes</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- end pageheader -->
+                <!-- ============================================================== -->
+                <div class="row wow bounceInDown"> 
+                    <!-- ============================================================== -->
+                    <!-- validation form -->
+                    <!-- ============================================================== -->
+                <form>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                        <div class="card">
+                            <h5 class="card-header">Cadastro Clientes</h5>
+                            <div class="card-body ">
+                                
+                                    <div class="row ">
+                                        <div class="col-xl-4 ">
+                                            <label for="codigoselectcadastroclientes">Código</label>
+                                            <select class="form-control" id="codigoselectcadastroclientes">
+                                              <option>Score1</option>
+                                              <option>Score2</option>
+                                              <option>Score3</option>
+                                              <option>Score4</option>
+                                              <option>Score5</option>
+                                            </select>
+                                            <label class="custom-control custom-checkbox float-left" style="margin-top: 30px ;">
+                                                <input type="checkbox" checked="" class="custom-control-input"><span class="custom-control-label">e-Commerce</span>
+                                            </label>
+                                        </div>
+                                        <div class="col-xl-4 ">
+                                            <label for="datacadastroinputcadastrocliente">Data do Cadastro</label>
+                                            <input type="text" class="form-control" id="datacadastroinputcadastrocliente" disabled placeholder="__/__/____">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-4 ">
+                                            <label for="nomeselectcadastroclientes">Nome</label>
+                                            <select class="form-control" id="nomeselectcadastroclientes">
+                                              <option>Score1</option>
+                                              <option>Score2</option>
+                                              <option>Score3</option>
+                                              <option>Score4</option>
+                                              <option>Score5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cepinputcadastroclientes">Cep</label>
+                                            <input type="text" class="form-control" id="cepinputcadastroclientes" placeholder="--">
+                                        </div>
+                                        <div>
+                                            <a href="#" class="btn btn-rounded btn-primary mt-4">Buscar CEP</a>
+                                        </div>
+                                        <div class="col-xl-6 ">
+                                            <label for="endereçoinputcadastroclientes">Endereço</label>
+                                            <input type="text" class="form-control" id="numeroinputcadastroclientes" placeholder="--">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="codibgeinputcadastroclientes">Cod. IBGE</label>
+                                            <select class="form-control" id="codibgeinputcadastroclientes">
+                                                <option>Score1</option>
+                                                <option>Score2</option>
+                                                <option>Score3</option>
+                                                <option>Score4</option>
+                                                <option>Score5</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="paísinputcadastroclientes">País</label>
+                                            <select class="form-control" id="paísinputcadastroclientes">
+                                                <option>Score1</option>
+                                                <option>Score2</option>
+                                                <option>Score3</option>
+                                                <option>Score4</option>
+                                                <option>Score5</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="bairroinputcadastroclientes">Bairro</label>
+                                            <input type="text" class="form-control" id="bairroinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cidadeinputcadastroclientes">Cidade</label>
+                                            <input type="text" class="form-control" id="cidadeinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="ufinputcadastroclientes">UF</label>
+                                            <input type="text" class="form-control" id="ufinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="cpfcnpjinputcadastroclientes">CPF/CNPJ</label>
+                                            <input type="text" class="form-control" id="cpfcnpjinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="rginputcadastroclientes">RG</label>
+                                            <input type="text" class="form-control" id="cnpjinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="orgaoinputcadastroclientes">Orgão</label>
+                                            <input type="text" class="form-control" id="orgaoinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="dtnascinputcadastroclientes">Data Nascimento</label>
+                                            <input type="text" class="form-control" id="dtnascinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="foneinputcadastroclientes">Fone</label>
+                                            <input type="text" class="form-control" id="foneinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="faxinputcadastroclientes">FAX/outros</label>
+                                            <input type="text" class="form-control" id="faxinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="celinputcadastroclientes">Celular</label>
+                                            <input type="text" class="form-control" id="celinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="emailinputcadastroclientes">E-mail</label>
+                                            <input type="text" class="form-control" id="emailinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="filiacaoinputcadastroclientes">Filiação, Pai</label>
+                                            <input type="text" class="form-control" id="filiacaoinputcadastroclientes" placeholder="">
+                                        </div>
+                                        <div class="col-xl-3 ">
+                                            <label for="maeinputcadastroclientes">Mãe</label>
+                                            <input type="text" class="form-control" id="maeinputcadastroclientes" placeholder="">
+                                        </div>
+                                        
+                                
+                            </div>
+                            <h5 class="card-header"> Informações de trabalho e renda</h5>
+                            <div class="card-body center" style="border-left:1px solid #e6e6f2 ; border-right:1px solid #e6e6f2 ;">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <label for="empresainfoinputcadastroclientes">Empresa</label>
+                                            <input type="text" class="form-control" id="empresainfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <label for="enderinfoinputcadastroclientes">Endereço</label>
+                                            <input type="text" class="form-control" id="enderinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="foneinfoinputcadastroclientes">Fone</label>
+                                            <input type="text" class="form-control" id="foneinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="dtadmissaoinfoinputcadastroclientes">Dt. Admissão</label>
+                                            <input type="text" class="form-control" id="dtadmissaoinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="cargofuncaoinfoinputcadastroclientes">Cargo/Função</label>
+                                            <input type="text" class="form-control" id="cargofuncaoinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="rendasalarioinfoinputcadastroclientes">Renda/Salario</label>
+                                            <input type="text" class="form-control" id="rendasalarioinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <h5 class="card-header"> Informações do Conjuge</h5>
+                            <div class="card-body center" style="border-left:1px solid #e6e6f2 ; border-right:1px solid #e6e6f2 ;">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <label for="nomeinfoinputcadastroclientes">Nome</label>
+                                            <input type="text" class="form-control" id="nomeinfoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-8">
+                                            <label for="empresa1infoinputcadastroclientes">Empresa</label>
+                                            <input type="text" class="form-control" id="empresa1infoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="fone1infoinputcadastroclientes">Fone</label>
+                                            <input type="text" class="form-control" id="fone1infoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="cargofuncao1infoinputcadastroclientes">Cargo/Função</label>
+                                            <input type="text" class="form-control" id="cargofuncao1infoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="fone1infoinputcadastroclientes">Fone</label>
+                                            <input type="text" class="form-control" id="fone1infoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <label for="rendasalario1infoinputcadastroclientes">Renda/Salario</label>
+                                            <input type="text" class="form-control" id="rendasalario1infoinputcadastroclientes" placeholder="" >
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-3 ">
+                                    <label for="tipopessselectcadastroclientes">Tipo de Pessoa</label>
+                                    <select class="form-control" id="tipopessselectcadastroclientes">
+                                        <option>1- Masculino</option>
+                                        <option>2- Feminino</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-6 ">
+                                    <label for="conceitoselectcadastroclientes">Conceito</label>
+                                    <select class="form-control" id="conceitoselectcadastroclientes">
+                                        <option>A-Média até 14 dias de atraso (pp 0,5%)</option>
+                                        <option>Score2</option>
+                                        <option>Score3</option>
+                                        <option>Score4</option>
+                                        <option>Score5</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-3">
+                                    <label for="limitecreditoinputcadastroclientes">Limite Credito</label>
+                                    <input type="text" class="form-control" id="limitecreditoinputcadastroclientes" placeholder="" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <label for="ndocartaoinputcadastroclientes">Nº do Cartão</label>
+                                    <input type="text" class="form-control" id="ndocartaoinputcadastroclientes" placeholder="" >
+                                </div>
+                                <div class="col-xl-6 ">
+                                    <label for="potencialselectcadastroclientes">Potencial</label>
+                                    <select class="form-control" id="potencialselectcadastroclientes">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-3">
+                                    <label for="limitecondicionalinputcadastroclientes">Limite do Condicional</label>
+                                    <input type="text" class="form-control" id="limitecondicionalinputcadastroclientes" placeholder="" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-3 ">
+                                    <label for="estcivilselectcadastroclientes">Est. Civil</label>
+                                    <select class="form-control" id="estcivilselectcadastroclientes">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-6 ">
+                                    <label for="friocalorselectcadastroclientes">Voce Sente mais frio ou calor ?</label>
+                                    <select class="form-control" id="friocalorselectcadastroclientes">
+                                        <option>indefinido</option>
+                                        <option>indefinido 2</option>
+                                        <option>indefinido 3</option>
+                                        <option>indefinido 4</option>
+                                        <option>indefinido 5</option>
+                                      </select>
+                                </div>
+                                <div class="col-xl-3 ">
+                                    <label for="correspondenciaselectcadastroclientes">Correspondência</label>
+                                    <select class="form-control" id="correspondenciaselectcadastroclientes">
+                                        <option>Residencial</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div style="margin-top:20px; text-align: center;">
+                                    <div class=" pills-regular">
+                                        <ul class="nav nav-pills card-header-pills" id="myTab2" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="card-pills-1" data-toggle="tab" href="#autorizados" role="tab" aria-controls="card-1" aria-selected="true">Autorizados</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="card-pills-2" data-toggle="tab" href="#perfil" role="tab" aria-controls="card-2" aria-selected="false">Perfil</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="card-pills-3" data-toggle="tab" href="#obs" role="tab" aria-controls="card-3" aria-selected="false">Observações</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="card-pills-4" data-toggle="tab" href="#card-pill-4" role="tab" aria-controls="card-4" aria-selected="false">Rede Social</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="card-pills-5" data-toggle="tab" href="#card-pill-5" role="tab" aria-controls="card-5" aria-selected="false">Lugares que Frequenta</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="tab-content" id="myTabContent2">
+                                            <div class="tab-pane fade show active" id="autorizados" role="tabpanel" aria-labelledby="card-tab-1">
+                                                <div class="card col-xl-12 border-left-1 p-2">
+                                                    <div class="card-body p-0">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead class="bg-light">
+                                                                    <tr class="border-0">
+                                                                        <th class="border-0">Nome Autorizado</th>
+                                                                        <th class="border-0 border-left">CPF</th>
+                                                                        <th class="border-0 border-left">Nº Cartão Adic.</th>
+                                                                        <th class="border-0 border-left">Renda</th>
+                                                                        <th class="border-0 border-left">Dt. Nasc.</th>
+                                                                        <th class="border-0 border-left">Tipo</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Nome</td>
+                                                                        <td class="border-left">000.000.000-00</td>
+                                                                        <td class="border-left">5675432453443</td>
+                                                                        <td class="border-left">R$1,000</td>
+                                                                        <td class="border-left">21/09/1808</td>
+                                                                        <td class="border-left">S</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td >Nome</td>
+                                                                        <td class="border-left">000.000.000-00</td>
+                                                                        <td class="border-left">4563245232434</td>
+                                                                        <td class="border-left">R$100,000</td>
+                                                                        <td class="border-left">05/01/1909</td>
+                                                                        <td class="border-left">A</td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                                
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="perfil" role="tabpanel" aria-labelledby="card-tab-2">
+                                                <div class="card col-xl-12 border-left-1 p-2">
+                                                    <div class="card-body p-0">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead class="bg-light">
+                                                                    <tr class="border-0">
+                                                                        <th class="border-0">Código</th>
+                                                                        <th class="border-0 border-left">Descrição</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td >0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                                
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="obs" role="tabpanel" aria-labelledby="card-tab-3">
+                                                <div class="card col-xl-12 border-left-1 p-2">
+                                                    <textarea class="form-control" id="obsinputfornecedores" rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="card-pill-4" role="tabpanel" aria-labelledby="card-tab-4">
+                                                <div class="card col-xl-12 border-left-1 p-2">
+                                                    <div class="card-body p-0">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead class="bg-light">
+                                                                    <tr class="border-0">
+                                                                        <th class="border-0">Código</th>
+                                                                        <th class="border-0 border-left">Descrição</th>
+                                                                        <th class="border-0 border-left">Usuario ID</th>
+                                                                        <th class="border-0 border-left">Usuario Nome</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td >0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                                
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="card-pill-5" role="tabpanel" aria-labelledby="card-tab-5">
+                                                <div class="card col-xl-12 border-left-1 p-2">
+                                                    <div class="card-body p-0">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead class="bg-light">
+                                                                    <tr class="border-0">
+                                                                        <th class="border-0">Código</th>
+                                                                        <th class="border-0 border-left">Descrição</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td >0000-1</td>
+                                                                        <td class="border-left">Uma descrição aqui</td>
+                                                                    </tr>
+                                                                    
+                                                                </tbody>
+                                                                
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-rounded btn-primary mt-4 float-right ml-5" style="float: left;">Salvar</a>
+                        </div>
+
+                    </div>
+                </form>    
+                </div>     
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            CopyRight. <a href="#">NCSISTEMAS</a>.
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript: void(0);">Telefone</a>
+                                <a href="javascript: void(0);">Site</a>
+                                <a href="javascript: void(0);">E-mail</a>
+                                <a href="javascript: void(0);">TeamViewer</a>
+                                <a href="javascript: void(0);">AnyDesk</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- end footer -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+    <script src="../assets/libs/js/main-js.js"></script>
+    <script src="../assets/libs/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+ 
+</html>
